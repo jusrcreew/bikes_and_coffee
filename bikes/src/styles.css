@@ -1,0 +1,21 @@
+body { font-family: sans-serif; margin: 0; background: #eef6f3; color: #333; }
+.app { max-width: 900px; margin: 0 auto; padding: 16px; }
+.header { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; padding-bottom: 12px; border-bottom: 2px solid #7fc8b2; }
+.nav { display: flex; gap: 12px; }
+a { color: #1f6f5c; text-decoration: none; }
+a.active { font-weight: bold; text-decoration: underline; }
+.badge { background: #1f6f5c; color: #fff; padding: 6px 10px; border-radius: 8px; }
+.user { display: flex; gap: 8px; align-items: center; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.filters button.active { background: #1f6f5c; color: #fff; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+.card { background: #fff; padding: 12px; border-radius: 8px; }
+.list { list-style: none; padding: 0; }
+.row { display: flex; gap: 8px; align-items: center; background: #fff; padding: 8px; margin-bottom: 6px; border-radius: 8px; }
+.grow { flex: 1; }
+.qty { min-width: 24px; text-align: center; }
+.renders { font-size: 12px; color: #888; font-weight: normal; }
+.hint { color: #777; }
+.link-btn { margin-left: 12px; background: #1f6f5c; color: #fff; padding: 6px 12px; border-radius: 6px; }
+.error { color: #c0392b; }
+.success { color: #2e8b57; }
